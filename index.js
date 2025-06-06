@@ -1,4 +1,4 @@
-const { Client, GatewayIntentBits, Events, ActivityType, WebhookClient } = require('discord.js');
+const { Client, GatewayIntentBits, Events, ActivityType } = require('discord.js');
 const fs = require('fs');
 const path = require('path');
 const config = require('./config.json');
