@@ -4,10 +4,6 @@ const { REST } = require('@discordjs/rest');
 const { Routes, Collection } = require('discord.js');
 const { clientId, guildId, token } = require(path.resolve(__dirname, '../config.json'));
 
-/**
- * @param {string} dir 
- * @returns {string[]} 
- */
 function getCommandFiles(dir) {
     if (!fs.existsSync(dir)) {
         console.warn(`Directory not found: ${dir}`);
@@ -21,9 +17,6 @@ function getCommandFiles(dir) {
     });
 }
 
-/**
- * @param {object} client 
- */
 module.exports = async (client) => {
     client.commands = new Collection();
 
