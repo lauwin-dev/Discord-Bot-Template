@@ -3,7 +3,7 @@ const path = require('path');
 
 module.exports = (client) => {
     client.buttons = new Map();
-    const buttonsPath = path.join(__dirname, '../buttons'); // שינוי הנתיב לתיקייה הראשית
+    const buttonsPath = path.join(__dirname, '../buttons');
 
     if (!fs.existsSync(buttonsPath)) {
         console.warn(`[WARNING] Buttons directory not found: ${buttonsPath}`);
