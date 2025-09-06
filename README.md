@@ -1,4 +1,4 @@
-```markdown
+
 # Discord Bot Template
 A modular **Discord.js v14** bot template, ready for building your own Discord bot efficiently.
 
@@ -16,7 +16,7 @@ This template provides:
 ---
 
 ## 🗂 Project Structure
-```
+
 
 .
 ├─ buttons/                 # Button modules (example: ping.js)
