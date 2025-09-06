@@ -1,16 +1,22 @@
 {
-  "name": "gn-simple-discord-bot",
+  "name": "lauwin-discord-bot-template",
   "version": "1.0.0",
   "main": "index.js",
+  "repository": "https://github.com/lauwin-dev/Discord-Bot-Template.git",
+  "description": "Template for building a professional Discord bot built in Node js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "prettier --write \"**/*.js\""
   },
-  "author": "",
-  "license": "ISC",
+  "author": "LauWin",
+  "license": "MIT",
   "dependencies": {
     "chalk": "^5.4.1",
     "discord.js": "^14.18.0"
   },
-  "keywords": [],
-  "description": ""
+  "keywords": [
+    "template",
+    "discord",
+    "bot"
+  ]
 }
