@@ -33,7 +33,6 @@ This template provides:
 ├─ package.json             # Project dependencies
 └─ package-lock.json
 
-````
 
 ### Explanation
 - `commands/` – Each command is a module exporting `data`, `execute()`, and `enabled`.
