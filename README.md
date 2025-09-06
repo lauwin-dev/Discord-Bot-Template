@@ -137,6 +137,6 @@ module.exports = {
 ## ❓ Support
 
 For help or questions, join our Discord server, or dm me:
-[Discord Support Server](https://discord.gg/JKqKZjbq)
-[Me Discord Profile](https://discord.com/users/789168526065008640)
+[Join Our Discord Server](https://discord.gg/JKqKZjbq)
+[Dm Me Discord Profile](https://discord.com/users/789168526065008640)
 
