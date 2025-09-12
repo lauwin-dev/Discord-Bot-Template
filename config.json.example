@@ -1,0 +1,6 @@
+{
+    "token": "YOUR_TOKEN",
+    "clientId": "YOUR_CLIENT_ID",
+    "guildId": "YOUR_GUILD_ID",
+    "webhook": "YOUR_WEBHOOK_URL"
+   }
