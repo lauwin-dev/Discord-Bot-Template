@@ -7,7 +7,7 @@ module.exports = {
         .setDescription('Replies with Pong!'),
     
     async execute(interaction) {
-        const ping = interaction.client.ws.ping; // Get bot's ping
+        const ping = interaction.client.ws.ping;
         
         const embed = new EmbedBuilder()
             .setColor('#0099ff')
